@@ -68,10 +68,10 @@ int thirdMain() { //create a program introducing arrays
 
 	char keepAlive = 'y';
 	cin >> keepAlive;
-	return 0;
+	return 0; //2D arrays are created by a for loop inside a for loop
 }
 
-
+//homework for week 8 is to read chapter 6 and 7, load a 10x10 battleship gameboard from a file containing multple game baords, and play it. It should look like dots (invisible game board) and show a separate marking for hit or miss. Ask the user for x and y coordinates to fire at, say hit or miss, print the updated board, and repeat. Bonus, declare when you've won.
 
 /*
 #include<iostream>
